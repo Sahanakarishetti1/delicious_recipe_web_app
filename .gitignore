@@ -32,7 +32,6 @@ dist/
 
 # Gatsby files
 .cache/
-public/
 
 # Angular files
 .angular/cache/
@@ -113,7 +112,6 @@ db.json
 *.swp
 
 # Hugo files
-public/
 .resources/
 
 # Yarn Integrity file
