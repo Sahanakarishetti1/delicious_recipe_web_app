@@ -1,0 +1,37 @@
+/* HomePage.css */
+:root {
+    --primary-color: #FFA726; /* Brighter Orange */
+    --secondary-color: #FFAB91; /* Light Orange */
+    --text-color: #333;
+    --background-color: #FFCCBC; /* Very Light Orange */
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .homePage {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .no-recipes {
+    color: #666;
+    font-size: 18px;
+  }
+  

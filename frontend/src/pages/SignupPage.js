@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import './LoginPage.css';
+import './SignupPage.css';
 
-const LoginPage = () => {
+const SignupPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleLogin = async (e) => {
+  const handleSignup = async (e) => {
     e.preventDefault();
-    // Add your login logic here
-    // If successful, navigate to the home page
-    navigate('/');
+    // Add your signup logic here
+    // If successful, navigate to the login page
+    navigate('/login');
   };
 
   return (
-    <div className="login-page">
-      <form onSubmit={handleLogin}>
+    <div className="signup-page">
+      <form onSubmit={handleSignup}>
         <input
           type="email"
           placeholder="Email"
@@ -29,10 +30,16 @@ const LoginPage = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="submit">Login</button>
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
+        />
+        <button type="submit">Signup</button>
       </form>
     </div>
   );
 };
 
-export default LoginPage;
+export default SignupPage;

@@ -1,0 +1,29 @@
+/* Footer.css */
+.footer {
+    background-color: #FFA726; /* Brighter Orange, same as NavBar */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+  }
+  
+  .footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-link {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    text-decoration: underline;
+  }
+  

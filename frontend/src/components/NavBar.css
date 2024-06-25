@@ -1,0 +1,29 @@
+/* NavBar.css */
+.navBar {
+    background-color: #FFA726; /* Use the same orange color as the footer */
+    padding: 10px;
+    border-bottom: 1px solid #F57C00; /* Slightly darker orange for the border */
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navItem {
+    padding: 0 15px;
+  }
+  
+  .navLink {
+    font-weight: bold;
+    color: #fff; /* White text for contrast */
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
