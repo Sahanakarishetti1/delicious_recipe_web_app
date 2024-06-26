@@ -11,7 +11,10 @@ Delicious Recipes is a web application where users can share and browse various 
 - View detailed instructions for each recipe in a modal dialog.
 - Responsive design with a consistent color palette.
 - Navigation bar and footer with social media links.
-- Added SQLite3  
+- Added SQLite3
+- I have implemented CI/CD
+    - Frontend $\to$ Netlify
+    - Backend  $\to$ Render
 - [Recipe Organizer website](https://master--grand-klepon-8100d2.netlify.app/)
 
 ## ScreenShots
