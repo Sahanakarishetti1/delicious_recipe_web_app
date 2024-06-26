@@ -45,8 +45,7 @@ const RecipeForm = ({ onSave }) => {
         type="text" 
         value={image} 
         onChange={(e) => setImage(e.target.value)} 
-        placeholder="Image URL" 
-        required 
+        placeholder="Image URL"
         className="form-input"
       />
       <textarea 

@@ -12,18 +12,3 @@
     color: #fff;
     font-size: 14px;
   }
-  
-  .social-links {
-    margin-top: 10px;
-  }
-  
-  .social-link {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  .social-link:hover {
-    text-decoration: underline;
-  }
-  

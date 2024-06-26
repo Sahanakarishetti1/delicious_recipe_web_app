@@ -11,6 +11,7 @@ Delicious Recipes is a web application where users can share and browse various 
 - View detailed instructions for each recipe in a modal dialog.
 - Responsive design with a consistent color palette.
 - Navigation bar and footer with social media links.
+- Added SQLite3  
 
 ## ScreenShots
 
