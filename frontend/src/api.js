@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://zeuronai-recipe-manager.onrender.com/'; // Ensure this matches your server's URL
+const API_BASE_URL = 'https://zeuronai-recipe-manager.onrender.com'; // Ensure this matches your server's URL
 
 export const fetchRecipes = async () => {
   try {
